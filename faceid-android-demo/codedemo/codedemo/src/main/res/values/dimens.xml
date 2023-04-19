@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="demo_txy_protocol_margin_size">15dp</dimen>
+    <dimen name="demo_txy_protocol_line_space">30dp</dimen>
+    <!-- 主要认证界面相关的头像大小 -->
+    <dimen name="demo_txy_auth_head_size">190dp</dimen>
+    <!-- title信息距离上边的内容 -->
+    <dimen name="demo_txy_title_margin_top">18dp</dimen>
+    <!-- 认证界面的平移信息 -->
+    <dimen name="demo_txy_auth_view_move">100dp</dimen>
+
+    <dimen name="demo_txy_wait_cancel_margin_top">10dp</dimen>
+</resources>

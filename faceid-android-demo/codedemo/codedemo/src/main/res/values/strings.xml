@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">慧眼SDK代码demo</string>
+    <string name="please_input_name">请输入需要核身人的姓名</string>
+    <string name="please_input_id_card_number">请输入需要核身人的身份证号</string>
+    <string name="get_auth_token">获取Token</string>
+    <string name="input_info_is_empty">输入信息不能为空</string>
+    <string name="input_info_is_no_illegal">请输入正确的身份证</string>
+    <string name="loading_token">正在获取Token中...</string>
+    <string name="loading_token_no_illegal">获取Token请求非法</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':codedemo'
+rootProject.name = "HuiYanDemo"
