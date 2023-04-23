@@ -2,6 +2,8 @@ build
 products
 Pods
 out
+contents.xcworkspacedata
+Podfile.lock
 xcshareddata
 xcuserdata
 .idea

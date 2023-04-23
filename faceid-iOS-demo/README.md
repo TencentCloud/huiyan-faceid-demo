@@ -49,17 +49,22 @@ Link Binary With Libraries导入相关Framework
 
 ##### 使用Pod方式接入
 
-1. 将CloudHuiYanSDK_FW文件夹复制到集成项目Podfile同级目录下
-2. 在Podfile设置
+1. 在Podfile设置
 
 ```ruby
-target 'HuiYanAuthDemo' do
-  use_frameworks! 
-  pod 'CloudHuiYanSDK_FW', :path => './CloudHuiYanSDK_FW'
+source 'https://github.com/TencentCloud/huiyan-faceid-demo'
+target 'HuiYanODemo' do
+  pod 'faceidkit'
+end
+```
+or
+```ruby
+target 'HuiYanODemo' do
+  pod 'faceidkit', :source => 'https://github.com/TencentCloud/huiyan-faceid-demo'
 end
 ```
 
-3. pod install 更新
+3. pod install --repo-update 更新
 
 >文件层级和具体的设置可以参考Demo
 

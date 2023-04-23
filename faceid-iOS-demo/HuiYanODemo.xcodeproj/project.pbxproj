@@ -115,7 +115,7 @@
 				C2E0BDC928572ED900976F3A /* Sources */,
 				C2E0BDCA28572ED900976F3A /* Frameworks */,
 				C2E0BDCB28572ED900976F3A /* Resources */,
-				1F49D1AE19B6D3822155E19B /* [CP] Copy Pods Resources */,
+				451F62F7FDE6114D36D4DE25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,7 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F49D1AE19B6D3822155E19B /* [CP] Copy Pods Resources */ = {
+		451F62F7FDE6114D36D4DE25 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,7 +387,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.cloud.huiyan.overseas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -423,7 +426,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.cloud.huiyan.overseas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
