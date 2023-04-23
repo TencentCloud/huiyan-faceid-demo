@@ -1,0 +1,9 @@
+build
+products
+Pods
+out
+xcshareddata
+xcuserdata
+.idea
+output
+xcworkspacedata
