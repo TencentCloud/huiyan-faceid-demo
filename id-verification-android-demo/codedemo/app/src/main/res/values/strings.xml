@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">EKYC</string>
+    <string name="get_token" translatable="false" tools:ignore="ExtraTranslation">Get Token</string>
+    <string name="start_ekyc" translatable="false" tools:ignore="ExtraTranslation">开始</string>
+    <string name="is_need_verify" translatable="false" >是否需要鉴伪</string>
+    <string name="is_hint_ocr_icon" translatable="false" >是否隐藏相册闪光灯</string>
+    <string name="is_token_hint" translatable="false" >主动设置Token内容，点击GetToken也可自动获取Token</string>
+    <string name="is_debug_hint" translatable="false" >测试模式时：人员名称，非测试模式不要填写</string>
+</resources>
