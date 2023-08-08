@@ -86,7 +86,6 @@ dependencies {
 EkycHyConfig ekycHyConfig = new EkycHyConfig();
 // 设置license的名称
 ekycHyConfig.setLicenseName("ekycLicense.license");
-ekycHyConfig.setVerAutoTimeOut(20000);
 ekycHyConfig.setOcrType(OcrRegionType.HK);
 // 自定义UI配置
 OcrUiConfig config = new OcrUiConfig();
