@@ -106,7 +106,6 @@ Copy Bundle Resources中导入bundle文件
     VerificationConfig *config = [[VerificationConfig alloc] init];
     config.licPath = [[NSBundle mainBundle] pathForResource:@"" ofType:nil];
     config.languageType = HY_EKYC_EN;
-    config.verAutoTimeOut = 30000;//鉴伪超时时间设置
     config.hyFaceTimeOut = 15000;//人脸单动作超时设置
     config.ekycToken = @"";
     [[VerificationKit sharedInstance] startVerifiWithConfig:config withSuccCallback:^(int errorCode, id  _Nonnull resultInfo, id  _Nullable reserved) {
@@ -120,8 +119,6 @@ Copy Bundle Resources中导入bundle文件
 **ekycToken** 为从服务器兑换的本次身份认证流程的唯一凭证。
 
 **注意：** **"eKYC_license.lic"**文件是需要联系商务或者客服人员进行license申请。将申请完成后的license文件放到Copy Bundle Resources下。
-
-<img src="https://ai-sdk-release-1254418846.cos.ap-guangzhou.myqcloud.com/EKYC/%E5%9B%BE%E5%BA%8A/eKYCLicResources.png" style="zoom:50%;" />
 
 
 
