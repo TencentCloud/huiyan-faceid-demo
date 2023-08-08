@@ -33,13 +33,10 @@ Link Binary With Libraries导入相关Framework SDK依赖的库如下：
 ├── YTPoseDetector.framework
 ├── YtSDKKitActionLiveness.framework
 ├── YtSDKKitFramework.framework
-├── YtSDKKitOcrVideoIdent.framework
 ├── YtSDKKitReflectLiveness.framework
 ├── YtSDKKitSilentLiveness.framework
-├── HKOCRSDK.framework
 ├── tiny_opencv2.framework
 ├── HuiYanOverseasSDK.framework
-├── IdVerification.framework
 ├── OcrSDKKit.framework
 ├── TXYCommonDevice.framework
 ├── TXYCommonNetworking.framework
@@ -65,10 +62,8 @@ Copy Bundle Resources中导入bundle文件
 ├── face-tracker-v003.bundle
 ├── huiyan_verification.bundle
 ├── HuiYanSDKUI.bundle
-├── idverificationres.bundle
 ├── ocr-v001.bundle
-├── OcrSDK.bundle
-└── ytsdkviidres.bundle
+└── OcrSDK.bundle
 ```
 ### 4）Build Phases设置
 1. Other Linker Flags 新增 **-ObjC**

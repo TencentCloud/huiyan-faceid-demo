@@ -58,12 +58,7 @@
     config.authLicense = [[NSBundle mainBundle] pathForResource:@".ls" ofType:@""];
     config.authTimeOutMs = 20000;
     config.isDeleteVideoCache = YES;
-    config.languageType = EN;
-    // 自定义的语言配置
-//    config.userLanguageFileName = @"ko";
-//    config.userLanguageBundleName = @"UseLanguageBundle";
     config.iShowTipsPage = YES;
-    config.isGetBestImg = YES;
     // 主动启动核身检测的SDK代码
     [[HuiYanOSKit sharedInstance] startHuiYaneKYC:faceToken withConfig:config
                                   witSuccCallback:^(HuiYanOsAuthResult * _Nonnull authResult, id  _Nullable reserved) {
