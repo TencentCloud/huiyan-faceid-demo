@@ -53,5 +53,5 @@ dependencies {
     implementation files("libs/tencent-ai-sdk-aicamera-1.0.22-release.aar")
     // 慧眼SDK需要依赖的第三方库
     // gson
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.code.gson:gson:2.8.9'
 }
